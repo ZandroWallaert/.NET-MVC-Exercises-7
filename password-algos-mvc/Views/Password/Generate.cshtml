@@ -1,0 +1,26 @@
+@{
+    Layout = "_PasswordLayout";
+    ViewData["Title"] = "Generate Password";
+}
+
+<main id="password_generate">
+    <h1>Password generator</h1>
+    <form
+        asp-controller="Password"
+        asp-action="GeneratePassword"
+        method="Post">
+        
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label class="control-label"></label>
+            <input class="form-control" />
+            <span class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+        </form>
+</main>
+

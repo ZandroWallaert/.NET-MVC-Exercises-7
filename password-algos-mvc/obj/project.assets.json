@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Password/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Password.Net4.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Password.Net4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Password/1.0.0": {
+      "sha512": "Z6MDs8fo6ajI226z1ApDklGlBUnB4Xr3Pm7eGSDuVYP6fL2aIB+4NoqJOOBCYFUrOTRFDoNe0IlJLPPDzvtreA==",
+      "type": "package",
+      "path": "password/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Password.dll",
+        "lib/net40/Password.Net4.dll",
+        "lib/netcore451/Password.Universal.dll",
+        "lib/wp81/Password.Universal.dll",
+        "password.1.0.0.nupkg.sha512",
+        "password.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "password >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\walla\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "d:\\Desktop\\3Theorie\\Software Development IV\\week 7\\password-algos-mvc\\password-algos-mvc.csproj",
+      "projectName": "password-algos-mvc",
+      "projectPath": "d:\\Desktop\\3Theorie\\Software Development IV\\week 7\\password-algos-mvc\\password-algos-mvc.csproj",
+      "packagesPath": "C:\\Users\\walla\\.nuget\\packages\\",
+      "outputPath": "d:\\Desktop\\3Theorie\\Software Development IV\\week 7\\password-algos-mvc\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\walla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "D:\\Desktop\\3Theorie\\Software Development IV\\week 7\\password-algos\\bin\\Debug": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "password": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Password 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Password",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
